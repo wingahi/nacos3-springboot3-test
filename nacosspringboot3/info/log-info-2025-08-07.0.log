@@ -1,0 +1,377 @@
+===2025-08-07 15:57:07.784 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 5743 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 15:57:07.788 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 15:57:07.875 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 15:57:08.291 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 15:58:42.970 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 5776 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 15:58:42.972 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 15:58:43.015 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 15:58:43.674 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 15:58:44.002 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 15:58:44.015 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 15:58:44.016 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 15:58:44.017 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 15:58:44.053 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 15:58:44.054 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1038 ms
+===2025-08-07 15:58:44.136 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 15:58:44.189 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@6658f08a
+===2025-08-07 15:58:44.195 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@9d99851
+===2025-08-07 15:59:08.894 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 15:59:08.940 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8088 (http) with context path '/'
+===2025-08-07 15:59:09.054 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 15:59:09.055 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 15:59:11.544 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8088 register finished
+===2025-08-07 15:59:11.969 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 30.734 seconds (process running for 31.53)
+===2025-08-07 15:59:12.140 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 15:59:17.778 INFO  [http-nio-8088-exec-1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 15:59:17.926 INFO  [http-nio-8088-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 15:59:18.114 INFO  [http-nio-8088-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 187 ms
+===2025-08-07 16:01:21.278 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 16:01:21.443 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 16:01:38.640 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 5862 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:01:38.641 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:01:38.682 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:01:39.283 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=f0f383c2-b460-3cad-bb9c-99564d62dc0a
+===2025-08-07 16:01:39.608 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:01:39.620 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:01:39.622 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:01:39.622 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:01:39.672 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:01:39.672 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 989 ms
+===2025-08-07 16:01:39.760 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:01:39.820 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@e2b3026
+===2025-08-07 16:01:39.830 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@819fb19
+===2025-08-07 16:02:10.513 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:02:10.537 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8088 (http) with context path '/'
+===2025-08-07 16:02:10.571 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:02:10.571 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:02:10.639 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8088 register finished
+===2025-08-07 16:02:10.653 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 34.237 seconds (process running for 35.105)
+===2025-08-07 16:02:10.659 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:02:15.735 INFO  [http-nio-8088-exec-1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:02:15.735 INFO  [http-nio-8088-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:02:15.737 INFO  [http-nio-8088-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 1 ms
+===2025-08-07 16:06:58.932 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:06:59.261 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:06:59.422 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achieve, sms.server.achieve.type]
+===2025-08-07 16:17:19.010 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6274 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:17:19.012 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:17:19.068 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:17:19.705 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:17:20.016 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:17:20.040 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:17:20.042 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:17:20.042 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:17:20.110 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:17:20.110 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1041 ms
+===2025-08-07 16:17:20.175 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:17:20.226 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@283a8ad6
+===2025-08-07 16:17:20.236 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@71dd4624
+===2025-08-07 16:17:50.885 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:17:50.923 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:18:04.912 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6297 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:18:04.913 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:18:04.983 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:18:05.752 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:18:06.063 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:18:06.075 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:18:06.077 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:18:06.077 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:18:06.119 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:18:06.120 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1130 ms
+===2025-08-07 16:18:06.188 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:18:06.242 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@1f172892
+===2025-08-07 16:18:06.248 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@7493d937
+===2025-08-07 16:18:06.751 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:18:06.766 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:18:26.987 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6310 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:18:26.989 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:18:27.046 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:18:27.546 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:18:27.839 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:18:27.852 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:18:27.854 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:18:27.854 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:18:27.900 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:18:27.900 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 852 ms
+===2025-08-07 16:18:27.965 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:18:28.013 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@384472bf
+===2025-08-07 16:18:28.022 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@507049f2
+===2025-08-07 16:18:28.505 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:18:28.526 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:20:46.703 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6359 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:20:46.705 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:20:46.753 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:20:47.382 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:20:47.721 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:20:47.734 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:20:47.736 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:20:47.736 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:20:47.775 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:20:47.776 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1021 ms
+===2025-08-07 16:20:47.845 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:20:47.897 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@559d19c
+===2025-08-07 16:20:47.905 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@45cd8607
+===2025-08-07 16:20:48.375 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:20:48.398 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:23:58.852 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6432 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:23:58.854 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:23:58.900 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:23:59.391 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:23:59.680 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 16:23:59.692 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:23:59.694 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:23:59.694 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:23:59.730 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:23:59.730 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 829 ms
+===2025-08-07 16:23:59.797 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:23:59.845 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@59e082f8
+===2025-08-07 16:23:59.859 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@2347b7af
+===2025-08-07 16:24:00.303 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:24:00.312 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 16:24:00.330 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:24:00.331 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:24:00.440 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 16:24:00.451 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 3.222 seconds (process running for 3.849)
+===2025-08-07 16:24:00.456 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:24:18.567 INFO  [http-nio-8089-exec-1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:24:18.571 INFO  [http-nio-8089-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:24:18.578 INFO  [http-nio-8089-exec-1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 7 ms
+===2025-08-07 16:24:49.269 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 16:24:49.296 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 16:25:48.894 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6474 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:25:48.897 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:25:48.959 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:25:49.495 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=587a1ace-f59d-3024-88d6-4a01a19d14e6
+===2025-08-07 16:25:49.791 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:25:49.804 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:25:49.806 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:25:49.806 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:25:49.844 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:25:49.845 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 883 ms
+===2025-08-07 16:25:49.910 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:25:49.960 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@384472bf
+===2025-08-07 16:25:49.966 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@507049f2
+===2025-08-07 16:26:20.541 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:26:20.602 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:27:09.755 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6503 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:27:09.757 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:27:09.801 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:27:10.750 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:27:11.076 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:27:11.089 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:27:11.091 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:27:11.092 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:27:11.132 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:27:11.132 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1330 ms
+===2025-08-07 16:27:11.302 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:27:11.350 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@2295566b
+===2025-08-07 16:27:11.357 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@93f15f6
+===2025-08-07 16:27:11.909 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:27:11.970 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:27:11.996 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:29:15.618 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6552 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:29:15.620 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:29:15.708 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:29:16.857 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:29:17.176 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:29:17.187 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:29:17.189 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:29:17.189 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:29:17.227 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:29:17.227 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1516 ms
+===2025-08-07 16:29:17.412 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:29:17.455 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@2295566b
+===2025-08-07 16:29:17.461 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@93f15f6
+===2025-08-07 16:44:07.330 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:44:07.868 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:44:08.265 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achieveb, sms.server.achievea]
+===2025-08-07 16:45:18.079 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6948 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:45:18.094 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:45:18.253 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:45:20.916 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:45:21.567 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:45:21.586 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:45:21.594 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:45:21.594 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:45:21.695 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:45:21.695 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 3438 ms
+===2025-08-07 16:45:21.935 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:45:21.993 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@32e7b78d
+===2025-08-07 16:45:22.000 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@6fdc2db6
+===2025-08-07 16:45:53.221 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:45:58.574 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 6985 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:45:58.575 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:45:58.640 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:45:59.621 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:45:59.958 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8088 (http)
+===2025-08-07 16:45:59.970 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:45:59.972 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:45:59.972 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:46:00.024 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:46:00.025 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1384 ms
+===2025-08-07 16:46:00.218 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:46:00.279 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@42ffbab6
+===2025-08-07 16:46:00.284 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@78fb72cb
+===2025-08-07 16:46:00.900 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:46:00.958 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8088"]
+===2025-08-07 16:46:00.980 INFO  [main]  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger Line:82  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+===2025-08-07 16:46:23.854 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 7006 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:46:23.858 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:46:23.911 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:46:24.917 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:46:25.269 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 16:46:25.282 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:46:25.284 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:46:25.284 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:46:25.323 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:46:25.323 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1410 ms
+===2025-08-07 16:46:25.509 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:46:25.555 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@6f655dbd
+===2025-08-07 16:46:25.565 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@1b8ee69d
+===2025-08-07 16:46:26.164 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:46:26.235 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:46:26.246 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 16:46:26.262 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:46:26.262 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:46:26.494 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 16:46:26.509 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 4.181 seconds (process running for 4.94)
+===2025-08-07 16:46:26.516 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:46:27.272 INFO  [RMI TCP Connection(4)-127.0.0.1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:46:27.272 INFO  [RMI TCP Connection(4)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:46:27.275 INFO  [RMI TCP Connection(4)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 2 ms
+===2025-08-07 16:47:45.264 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:47:45.278 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:47:45.465 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:47:45.537 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:47:45.983 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achievea.type, sms.server.achieveb.type, sms.server.achieveb, sms.server.achievea]
+===2025-08-07 16:47:46.023 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achievea.type, sms.server.achieveb.type, server.port, sms.server.achieveb, sms.server.achievea]
+===2025-08-07 16:47:52.183 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 16:47:52.217 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 16:48:06.042 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 7070 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:48:06.044 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:48:06.097 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:48:07.037 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:48:07.355 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 16:48:07.367 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:48:07.369 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:48:07.369 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:48:07.411 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:48:07.411 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1313 ms
+===2025-08-07 16:48:07.593 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:48:07.658 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@6f655dbd
+===2025-08-07 16:48:07.664 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@1b8ee69d
+===2025-08-07 16:48:38.493 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:48:38.565 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:48:38.575 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 16:48:38.592 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:48:38.593 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:48:38.642 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 16:48:38.657 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 34.523 seconds (process running for 35.899)
+===2025-08-07 16:48:38.666 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:48:39.246 INFO  [RMI TCP Connection(2)-127.0.0.1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:48:39.246 INFO  [RMI TCP Connection(2)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:48:39.249 INFO  [RMI TCP Connection(2)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 2 ms
+===2025-08-07 16:55:41.718 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 16:55:41.817 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 16:55:49.683 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 7501 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:55:49.684 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:55:49.726 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:55:50.694 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:55:51.017 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 16:55:51.034 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:55:51.036 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:55:51.036 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:55:51.085 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:55:51.085 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1358 ms
+===2025-08-07 16:55:51.311 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:55:51.383 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@4ad8d36f
+===2025-08-07 16:55:51.388 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@1fa18f87
+===2025-08-07 16:56:22.370 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:56:22.455 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:56:22.470 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 16:56:22.492 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:56:22.493 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:56:22.588 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 16:56:22.611 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 34.863 seconds (process running for 35.628)
+===2025-08-07 16:56:22.622 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:56:22.872 INFO  [RMI TCP Connection(5)-127.0.0.1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:56:22.873 INFO  [RMI TCP Connection(5)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:56:22.876 INFO  [RMI TCP Connection(5)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 3 ms
+===2025-08-07 16:58:53.926 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 16:58:53.947 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 16:59:04.186 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 7608 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 16:59:04.188 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 16:59:04.227 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 16:59:05.342 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 16:59:05.662 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 16:59:05.676 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:59:05.678 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 16:59:05.678 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 16:59:05.715 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 16:59:05.716 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1487 ms
+===2025-08-07 16:59:05.885 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 16:59:05.937 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@7ac1b6c0
+===2025-08-07 16:59:05.944 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@fceab5d
+===2025-08-07 16:59:36.635 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 16:59:36.704 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 16:59:36.714 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 16:59:36.730 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 16:59:36.730 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 16:59:36.776 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 16:59:36.792 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 34.13 seconds (process running for 34.961)
+===2025-08-07 16:59:36.801 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 16:59:37.235 INFO  [RMI TCP Connection(1)-127.0.0.1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 16:59:37.236 INFO  [RMI TCP Connection(1)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 16:59:37.241 INFO  [RMI TCP Connection(1)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 5 ms
+===2025-08-07 17:00:57.741 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 17:00:57.872 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 17:01:05.236 INFO  [main]  com.wgh.nacos3.DemoApplication Line:50  - Starting DemoApplication using Java 21.0.8 with PID 7677 (/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes started by joe.wen in /Users/joe.wen/Desktop/code/nacos3-springboot3-test)
+===2025-08-07 17:01:05.237 INFO  [main]  com.wgh.nacos3.DemoApplication Line:654 - No active profile set, falling back to 1 default profile: "default"
+===2025-08-07 17:01:05.290 INFO  [main]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:252 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 17:01:06.252 INFO  [main]  org.springframework.cloud.context.scope.GenericScope Line:282 - BeanFactory id=4730d76c-07e0-3c9e-b899-f5be4d88a743
+===2025-08-07 17:01:06.588 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:111 - Tomcat initialized with port 8089 (http)
+===2025-08-07 17:01:06.601 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Initializing ProtocolHandler ["http-nio-8089"]
+===2025-08-07 17:01:06.603 INFO  [main]  org.apache.catalina.core.StandardService Line:168 - Starting service [Tomcat]
+===2025-08-07 17:01:06.603 INFO  [main]  org.apache.catalina.core.StandardEngine Line:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+===2025-08-07 17:01:06.662 INFO  [main]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring embedded WebApplicationContext
+===2025-08-07 17:01:06.662 INFO  [main]  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:301 - Root WebApplicationContext: initialization completed in 1370 ms
+===2025-08-07 17:01:06.877 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:89  - [Nacos Config] Listening config for annotation: dataId=routeconfig, group=config
+===2025-08-07 17:01:06.927 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:485 - [Nacos Config] register configController#filed#rate listener on com.wgh.nacos3.controller.config.ConfigController@6e67a8c0
+===2025-08-07 17:01:06.933 INFO  [main]  com.alibaba.cloud.nacos.annotation.NacosAnnotationProcessor Line:330 - [Nacos Config] register myRateConfigService#method#rate(String) listener on com.wgh.nacos3.listener.nacos.MyRateConfigService@4ad8d36f
+===2025-08-07 17:01:37.889 INFO  [main]  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:60  - Exposing 1 endpoint beneath base path '/actuator'
+===2025-08-07 17:01:38.186 INFO  [main]  org.apache.coyote.http11.Http11NioProtocol Line:168 - Starting ProtocolHandler ["http-nio-8089"]
+===2025-08-07 17:01:38.224 INFO  [main]  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:243 - Tomcat started on port 8089 (http) with context path '/'
+===2025-08-07 17:01:38.556 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+===2025-08-07 17:01:38.557 INFO  [main]  com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager Line:56  - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+===2025-08-07 17:01:38.922 INFO  [main]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:76  - nacos registry, DEFAULT_GROUP springboot3x 172.20.10.7:8089 register finished
+===2025-08-07 17:01:38.957 INFO  [main]  com.wgh.nacos3.DemoApplication Line:56  - Started DemoApplication in 35.51 seconds (process running for 36.311)
+===2025-08-07 17:01:38.978 INFO  [main]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:145 - [Nacos Config] Listening config: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 17:01:44.774 INFO  [RMI TCP Connection(3)-127.0.0.1]  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2025-08-07 17:01:44.781 INFO  [RMI TCP Connection(3)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:532 - Initializing Servlet 'dispatcherServlet'
+===2025-08-07 17:01:44.787 INFO  [RMI TCP Connection(3)-127.0.0.1]  org.springframework.web.servlet.DispatcherServlet Line:554 - Completed initialization in 4 ms
+===2025-08-07 17:03:54.626 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 17:03:54.830 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.refresh.NacosContextRefresher Line:122 - [Nacos Config] Receive Nacos config change: dataId=springboot3x.properties, group=DEFAULT_GROUP
+===2025-08-07 17:03:55.305 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 17:03:55.431 INFO  [nacos.client.config.listener.task-0]  com.alibaba.cloud.nacos.configdata.NacosConfigDataLoader Line:151 - [Nacos Config] Load config[dataId=springboot3x.properties, group=DEFAULT_GROUP] success
+===2025-08-07 17:03:56.160 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achievea.type, sms.server.achieveb.type]
+===2025-08-07 17:03:57.587 INFO  [nacos.client.config.listener.task-0]  org.springframework.cloud.endpoint.event.RefreshEventListener Line:73  - Refresh keys changed: [sms.server.achievea.type, sms.server.achieveb.type]
+===2025-08-07 17:39:41.821 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 17:39:42.050 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.
+===2025-08-07 18:01:14.462 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:95  - De-registering from Nacos Server now...
+===2025-08-07 18:01:14.951 INFO  [SpringApplicationShutdownHook]  com.alibaba.cloud.nacos.registry.NacosServiceRegistry Line:115 - De-registration finished.

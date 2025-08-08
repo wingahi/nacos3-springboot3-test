@@ -1,0 +1,104 @@
+===2025-08-07 15:57:08.282 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Unable to read meta-data for class com.lixiang.config.SmsAutoConfiguration
+===2025-08-07 15:57:08.347 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 15:57:08.347 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 15:57:08.347 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:01:21.075 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:01:21.079 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:01:21.075 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:01:21.203 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:01:21.205 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:01:21.242 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:17:50.897 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:17:50.962 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:17:50.962 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:17:50.962 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:17:50.963 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:17:50.963 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:17:50.965 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:18:06.755 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:18:06.784 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:18:06.784 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:18:06.784 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:18:06.784 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:18:06.784 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:18:28.510 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:18:28.562 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:18:28.562 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:18:28.562 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:20:48.383 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:20:48.436 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:20:48.437 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:20:48.437 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:20:48.437 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:20:48.437 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:24:49.251 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:24:49.251 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:24:49.251 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:24:49.258 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:24:49.258 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:24:49.262 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:26:20.561 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:26:20.659 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:26:20.660 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:26:20.660 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:26:20.660 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:26:20.661 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:27:11.975 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:27:12.016 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:27:12.017 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:27:12.017 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:27:12.017 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:29:22.430 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:29:22.431 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:29:22.431 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:29:22.431 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:29:22.432 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:29:22.432 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:45:52.233 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:45:52.233 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:45:52.233 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:45:52.251 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:45:52.253 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:45:52.262 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:45:53.322 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:46:00.962 WARN  [main]  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+===2025-08-07 16:46:01.000 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:46:01.001 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:46:01.001 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:46:01.001 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:47:52.159 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:47:52.159 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:47:52.160 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:47:52.167 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:47:52.168 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:47:52.171 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:55:41.529 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:55:41.529 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:55:41.529 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:55:41.605 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:55:41.609 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:55:41.619 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 16:58:53.911 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 16:58:53.911 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 16:58:53.911 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 16:58:53.915 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 16:58:53.916 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 16:58:53.918 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 17:00:57.678 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 17:00:57.678 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 17:00:57.678 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 17:00:57.695 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 17:00:57.697 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 17:00:57.703 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 17:39:41.707 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 17:39:41.707 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 17:39:41.707 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 17:39:41.746 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 17:39:41.752 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 17:39:41.767 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end
+===2025-08-07 18:01:14.396 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:134 - [NotifyCenter] Start destroying Publisher
+===2025-08-07 18:01:14.396 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:54  - [ThreadPoolManager] Start destroying ThreadPool
+===2025-08-07 18:01:14.396 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:102 - [HttpClientBeanHolder] Start destroying common HttpClient
+===2025-08-07 18:01:14.403 WARN  [Thread-8]  com.alibaba.nacos.common.notify.NotifyCenter Line:151 - [NotifyCenter] Destruction of the end
+===2025-08-07 18:01:14.404 WARN  [Thread-1]  com.alibaba.nacos.common.executor.ThreadPoolManager Line:56  - [ThreadPoolManager] Destruction of the end
+===2025-08-07 18:01:14.406 WARN  [Thread-6]  com.alibaba.nacos.common.http.HttpClientBeanHolder Line:111 - [HttpClientBeanHolder] Destruction of the end

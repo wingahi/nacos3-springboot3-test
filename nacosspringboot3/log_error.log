@@ -1,0 +1,67 @@
+===2025-08-08 11:20:33.376 ERROR [main]  org.springframework.boot.SpringApplication Line:859 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'promptController' defined in file [/Users/joe.wen/Desktop/code/nacos3-springboot3-test/target/classes/com/wgh/nacos3/controller/PromptController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'dashscopeChatModel' defined in class path resource [com/alibaba/cloud/ai/autoconfigure/dashscope/DashScopeChatAutoConfiguration.class]: Failed to instantiate [com.alibaba.cloud.ai.dashscope.chat.DashScopeChatModel]: Factory method 'dashscopeChatModel' threw exception with message: DashScope API key must be set. Use the connection property: spring.ai.dashscope.api-key or spring.ai.dashscope.chat.api-key property.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.wgh.nacos3.DemoApplication.main(DemoApplication.java:24)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dashscopeChatModel' defined in class path resource [com/alibaba/cloud/ai/autoconfigure/dashscope/DashScopeChatAutoConfiguration.class]: Failed to instantiate [com.alibaba.cloud.ai.dashscope.chat.DashScopeChatModel]: Factory method 'dashscopeChatModel' threw exception with message: DashScope API key must be set. Use the connection property: spring.ai.dashscope.api-key or spring.ai.dashscope.chat.api-key property.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1448)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.alibaba.cloud.ai.dashscope.chat.DashScopeChatModel]: Factory method 'dashscopeChatModel' threw exception with message: DashScope API key must be set. Use the connection property: spring.ai.dashscope.api-key or spring.ai.dashscope.chat.api-key property.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 33 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DashScope API key must be set. Use the connection property: spring.ai.dashscope.api-key or spring.ai.dashscope.chat.api-key property.
+	at org.springframework.util.Assert.hasText(Assert.java:240)
+	at com.alibaba.cloud.ai.autoconfigure.dashscope.DashScopeConnectionUtils.resolveConnectionProperties(DashScopeConnectionUtils.java:66)
+	at com.alibaba.cloud.ai.autoconfigure.dashscope.DashScopeChatAutoConfiguration.dashscopeChatApi(DashScopeChatAutoConfiguration.java:119)
+	at com.alibaba.cloud.ai.autoconfigure.dashscope.DashScopeChatAutoConfiguration.dashscopeChatModel(DashScopeChatAutoConfiguration.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 34 common frames omitted
+===2025-08-08 11:21:20.499 ERROR [main]  org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.wgh.nacos3.controller.ai.PromptController required a bean of type 'com.alibaba.cloud.ai.prompt.ConfigurablePromptTemplateFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.alibaba.cloud.ai.prompt.ConfigurablePromptTemplateFactory' in your configuration.
+
