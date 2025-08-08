@@ -14,6 +14,11 @@ Group: DEFAULT_GROUP
   }
 ]
 
-2、访问api：
+2、在https://bailian.console.aliyun.com/获取api-key（有免费）
+
+3、配置api-key
+spring.ai.dashscope.api-key=${api-key}
+
+4、访问api：
 http://127.0.0.1:8089/nacos/books?author=%E9%B2%81%E8%BF%85
 
